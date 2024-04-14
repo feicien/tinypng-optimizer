@@ -14,7 +14,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.nvlad.tinypng.PluginGlobalSettings"/>
         <!-- Add your extensions here -->
-        <errorHandler implementation="com.nvlad.tinypng.diagnostic.ErrorReportHandler"/>
         <applicationConfigurable
                 instance="com.nvlad.tinypng.ui.settings.Settings"
                 displayName="TinyPNG Image Optimize"
